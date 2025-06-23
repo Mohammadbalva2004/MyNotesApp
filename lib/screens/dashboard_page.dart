@@ -42,7 +42,7 @@ class _DashboardPageState extends State<DashboardPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Deshbord'),
+        title: const Text('Dashboard'),
         actions: [
           Consumer<ThemeProvider>(
             builder: (context, themeProvider, child) {
