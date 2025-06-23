@@ -24,7 +24,7 @@ class SplashScreen extends StatelessWidget {
               Icon(Icons.note_alt_outlined, size: 80, color: Colors.white),
               SizedBox(height: 24),
               Text(
-                'Task App',
+                'MyNotesApp',
                 style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,

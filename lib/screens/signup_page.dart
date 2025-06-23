@@ -185,7 +185,10 @@ class _SignupPageState extends State<SignupPage> {
                               width: 20,
                               child: CircularProgressIndicator(strokeWidth: 2),
                             )
-                            : const Text('Sign Up'),
+                            : const Text(
+                              'Sign Up',
+                              style: TextStyle(fontSize: 20),
+                            ),
                   ),
                   const SizedBox(height: 16),
                   TextButton(

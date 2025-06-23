@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'providers/auth_provider.dart';
 import 'providers/theme_provider.dart';
 import 'screens/splash_screen.dart';
-import 'screens/login_page.dart';
+import 'screens/signin_page.dart';
 import 'screens/dashboard_page.dart';
 
 void main() async {
@@ -30,7 +30,7 @@ class MyNotesApp extends StatelessWidget {
     return Consumer<ThemeProvider>(
       builder: (context, themeProvider, child) {
         return MaterialApp(
-          title: 'TaskApp',
+          title: 'MyNotesApp',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
@@ -69,7 +69,7 @@ class AppWrapper extends StatelessWidget {
           return const DashboardPage();
         }
 
-        return const LoginPage();
+        return const SigninPage();
       },
     );
   }

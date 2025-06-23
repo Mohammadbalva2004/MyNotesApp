@@ -4,14 +4,14 @@ import '../providers/auth_provider.dart';
 import '../providers/theme_provider.dart';
 import 'signup_page.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class SigninPage extends StatefulWidget {
+  const SigninPage({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<SigninPage> createState() => _SigninPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _SigninPageState extends State<SigninPage> {
   final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
@@ -164,7 +164,10 @@ class _LoginPageState extends State<LoginPage> {
                               width: 20,
                               child: CircularProgressIndicator(strokeWidth: 2),
                             )
-                            : const Text('Login'),
+                            : const Text(
+                              'Sign In',
+                              style: TextStyle(fontSize: 20),
+                            ),
                   ),
                   const SizedBox(height: 16),
                   TextButton(
