@@ -1,7 +1,7 @@
+import 'package:demo/providers/auth_provider.dart';
+import 'package:demo/providers/theme_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../providers/auth_provider.dart';
-import '../providers/theme_provider.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});

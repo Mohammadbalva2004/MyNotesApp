@@ -1,11 +1,11 @@
+import 'package:demo/screens/dashboard/dashboard_page.dart';
+import 'package:demo/screens/signin/signin_page.dart';
+import 'package:demo/screens/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'providers/auth_provider.dart';
 import 'providers/theme_provider.dart';
-import 'screens/splash_screen.dart';
-import 'screens/signin_page.dart';
-import 'screens/dashboard_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
